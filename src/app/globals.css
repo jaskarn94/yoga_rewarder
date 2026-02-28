@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand colors */
+  --color-cream: #FAF9F6;
+  --color-sage: #8BAF8B;
+  --color-sage-dark: #5a7a5a;
+  --color-terracotta: #C17A5B;
+
+  /* Custom fonts */
+  --font-playfair: var(--font-playfair-display);
+  --font-inter: var(--font-inter);
+}
+
+:root {
+  --background: #FAF9F6;
+  --foreground: #292524;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
